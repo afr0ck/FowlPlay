@@ -1,10 +1,13 @@
 /// @description Moving/Jumping + Collision
 
 //Player's input\\
-key_right = keyboard_check(vk_right);
-key_left = keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_space);
-key_down = keyboard_check(vk_down);
+key_right = keyboard_check(ord("D")) || keyboard_check(vk_right) ;
+key_left = keyboard_check(ord("A")) ||  keyboard_check(vk_left);
+key_jump = keyboard_check_pressed(ord("W")) || keyboard_check(vk_up);
+key_down = keyboard_check(ord("S")) || keyboard_check(vk_down);
+
+key_attack = keyboard_check_pressed(vk_lshift);
+key_shoot = keyboard_check_pressed(vk_space);
 
 /////Character Output\\\\\
 //Directional Value
@@ -17,8 +20,21 @@ if (key_jump)&&(jumps > 0){
 		vsp = -jumpspeed
 }
 
+//Attack Animation End
+	if(image_index > image_number -1){
+		sprite_index = spr_Dave
+		is_attacking = false
+	}
+	
+//Attacking
+if(key_attack){
+	sprite_index = spr_Dave_attack
+	image_index = 0
+	image_speed = 1
+	is_attacking = true
+
 //Animation Changes
-if (key_down == 1)//crouch
+}else if (key_down == 1 && !is_attacking)//crouch
 {
 	image_speed = 0 //stops animation
     sprite_index = spr_Dave_crouch
@@ -72,6 +88,12 @@ if (place_meeting(x,y+vsp,obj_block))
     vsp = 0;
 	jumps = jumpsmax
 }
+
+if(x+hsp > room_width || x+hsp < 0)
+hsp=0
+
+if(y+vsp > room_height || y+vsp < 0)
+vsp =0
 
 //Final Movement
 x += hsp;
