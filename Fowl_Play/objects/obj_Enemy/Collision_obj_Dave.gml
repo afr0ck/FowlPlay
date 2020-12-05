@@ -3,7 +3,7 @@
 
 //This is a basic idea (not final)
 if(obj_Dave.is_attacking){
-	hp -= 10
+	//hp -= 10
 }else{
 	obj_Dave.x = obj_Dave.x - obj_Dave.image_xscale*20
 	health -= damage

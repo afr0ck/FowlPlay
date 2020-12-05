@@ -4,12 +4,18 @@ if(health <= 0){
 	instance_destroy(obj_Dave);
 	if(lives > 0){
 		lives--
+		killCounter = 0;
 		room_restart()
 	}else{
+		gameOver = true;
 		if(keyboard_check_pressed(ord("F"))){
 			game_restart();
 		}
 	}
+}
+
+if (killCounter == 6) {
+	gameWin = true;	
 }
 
 if(XP >= Lvl*100){

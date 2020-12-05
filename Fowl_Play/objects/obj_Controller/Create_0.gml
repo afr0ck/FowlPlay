@@ -4,3 +4,6 @@ XP = 0;
 Lvl = 1;
 
 lives = 3;
+gameOver = false;
+gameWin = false;
+killCounter = 0;

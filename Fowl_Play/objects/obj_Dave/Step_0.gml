@@ -3,7 +3,7 @@
 //Player's input\\
 key_right = keyboard_check(ord("D")) || keyboard_check(vk_right) ;
 key_left = keyboard_check(ord("A")) ||  keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(ord("W")) || keyboard_check(vk_up);
+key_jump = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
 key_down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 
 key_attack = keyboard_check_pressed(vk_lshift);
@@ -32,6 +32,7 @@ if(key_attack){
 	image_index = 0
 	image_speed = 1
 	is_attacking = true
+	instance_create_layer(x+32, y, "Active", obj_Attack);
 
 //Animation Changes
 }else if (key_down == 1 && !is_attacking)//crouch
@@ -63,7 +64,9 @@ if(key_right){
 }
 
 //Horizontal Movement Calulations
-hsp = move * movespeed;
+if (!isHit) {
+	hsp = move * movespeed;
+}
 
 //Gravity
 if(vsp < 10) vsp += grav;

@@ -4,7 +4,7 @@
 //image_index = 0;
 
 //Movement
-grav = 0.2;
+grav = .7;
 hsp = 0;
 vsp = 0;
 
@@ -18,7 +18,7 @@ jumps = 2
 jumpsmax = 2;
 
 //Jumping Powerup
-jumpspeed_normal = 7;
+jumpspeed_normal = 12;
 jumpspeed_powerup = 10;
 jumpspeed = jumpspeed_normal;
 
