@@ -27,3 +27,4 @@ is_attacking = false;
 
 //Health
 health = 100
+

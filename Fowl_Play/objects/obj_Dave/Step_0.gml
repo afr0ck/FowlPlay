@@ -70,12 +70,12 @@ if (!isHit) {
 }
 
 //Gravity
-if (vsp < 17) vsp += grav;
+if (vsp <= 17) vsp += grav;
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_block)) 
 {
-        while(!place_meeting(x+sign(hsp),y,obj_block))
+    while(!place_meeting(x+sign(hsp),y,obj_block))
     {
         x += sign(hsp);
     }
@@ -94,15 +94,28 @@ if (place_meeting(x,y+vsp,obj_block))
 }
 
 //Jump through block collision check
-if (collision_point(x, bbox_bottom, obj_blockUp, false, false) && vsp >= 0)
+
+if (vsp > 0) {
+	if (place_meeting(x, y+vsp, obj_blockUp))
+	{
+	    if(!place_meeting(x, y+sign(vsp), obj_blockUp))
+	    {
+	        y += sign(vsp);
+	    }
+		vsp = 0;
+		jumps = jumpsmax
+	}
+}
+
+/*if (collision_point(x, bbox_bottom+vsp, obj_blockUp, true, true) && vsp > 0)
 {
 	while(!collision_point(x, bbox_bottom, obj_blockUp, false, true))
     {
-        y += sign(vsp);
+        y += vsp;
     }
     vsp = 0;
 	jumps = jumpsmax
-}
+}*/
 
 //Jump down through block
 if (collision_point(x, bbox_bottom, obj_blockUp, false, true) && key_down)
