@@ -3,3 +3,5 @@
 grav = 0.2;
 vsp = 0;
 isHit = false;
+
+drawHealth = false;

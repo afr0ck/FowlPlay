@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
+if (global.pause) exit;
 
 
 if(instance_exists(obj_Dave)){

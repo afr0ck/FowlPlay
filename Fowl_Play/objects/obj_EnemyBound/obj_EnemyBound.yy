@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Bounding Blocks",
+    "path": "folders/Objects/Bounding Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_EnemyBound",

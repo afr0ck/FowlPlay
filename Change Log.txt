@@ -1,0 +1,15 @@
+--- Update 10 Dec 20 ---
++ Updated sprite size to 128x128
+	+ Updated all movement speeds to factor in new size
+		+ Player Jump = greater
+		+ Player movement = greater
+		+ Turkey movemt = greater
++ Added all new art as sprites to GameMaker
+	+ Fork changed out with new static fork
++ Created upwards collision blocks for jumping through mechanic
++ Created jump down mechanic to allow Dave to fall through current platform
++ Fix turkey turning incorrectly still when hit from certain angles
++ Enemy HP bars aren't persistent. Only show when hit
+
+--- Current Known Bugs ---
+* Dave falls through <jump through> bounding blocks when vsp is too high

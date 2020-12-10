@@ -1,4 +1,5 @@
 /// @description Moving/Jumping + Collision
+if (global.pause) exit;
 
 //Player's input\\
 key_right = keyboard_check(ord("D")) || keyboard_check(vk_right) ;
@@ -32,7 +33,7 @@ if(key_attack){
 	image_index = 0
 	image_speed = 1
 	is_attacking = true
-	instance_create_layer(x+32, y, "Active", obj_Attack);
+	instance_create_layer(x+64, y, "Active", obj_Attack);
 
 //Animation Changes
 }else if (key_down == 1 && !is_attacking)//crouch
@@ -69,7 +70,7 @@ if (!isHit) {
 }
 
 //Gravity
-if(vsp < 10) vsp += grav;
+if (vsp < 17) vsp += grav;
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_block)) 
@@ -90,6 +91,23 @@ if (place_meeting(x,y+vsp,obj_block))
     }
     vsp = 0;
 	jumps = jumpsmax
+}
+
+//Jump through block collision check
+if (collision_point(x, bbox_bottom, obj_blockUp, false, false) && vsp >= 0)
+{
+	while(!collision_point(x, bbox_bottom, obj_blockUp, false, true))
+    {
+        y += sign(vsp);
+    }
+    vsp = 0;
+	jumps = jumpsmax
+}
+
+//Jump down through block
+if (collision_point(x, bbox_bottom, obj_blockUp, false, true) && key_down)
+{
+	y += 5;
 }
 
 if(x+hsp > room_width || x+hsp < 0)

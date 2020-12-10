@@ -15,10 +15,19 @@ draw_set_font(fnt_Arial)
 draw_text(5, 45, "Exp:"+ string(XP)+"/"+string(Lvl*100))
 draw_text(5, 75, "Level: "+string(Lvl))
 
+
 if (gameOver) {
 	draw_sprite(spr_DeathMessage, 0, camera_get_view_width(view_camera[0])/2, camera_get_view_height(view_camera[0])/2);
 }
 
 if (gameWin) {
 	draw_sprite(spr_YouWin, 0, camera_get_view_width(view_camera[0])/2, camera_get_view_height(view_camera[0])/2);		
+}
+
+if (global.pause) {
+	draw_set_color(c_black);
+	draw_set_alpha(.5);
+	draw_rectangle(0, 0, room_width, room_height, 0);
+	draw_set_alpha(1);
+	draw_sprite(spr_Pause, 0, camera_get_view_width(view_camera[0])/2, camera_get_view_height(view_camera[0])/2);
 }

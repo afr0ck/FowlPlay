@@ -3,6 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-hspeed = 2;
-
-
+hsp = 4;
+hspeed = -hsp;
+Paused = false;

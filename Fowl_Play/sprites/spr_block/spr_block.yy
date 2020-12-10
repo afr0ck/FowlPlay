@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1be5e19a-9e2c-42ee-b67a-979602e73d96","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Bounding Blocks",
+    "path": "folders/Sprites/Bounding Blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_block",

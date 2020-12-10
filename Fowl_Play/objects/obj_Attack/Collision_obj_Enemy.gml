@@ -33,10 +33,22 @@ if(l4BA0C30F_0)
 	/// @DnDHash : 13D20E7F
 	/// @DnDApplyTo : other
 	/// @DnDParent : 4BA0C30F
-	/// @DnDArgument : "steps" "10"
+	/// @DnDArgument : "steps" "20"
 	/// @DnDArgument : "alarm" "1"
 	with(other) {
-	alarm_set(1, 10);
+	alarm_set(1, 20);
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7BBF4FF0
+	/// @DnDApplyTo : other
+	/// @DnDParent : 4BA0C30F
+	/// @DnDArgument : "expr" "-image_xscale"
+	/// @DnDArgument : "var" "image_xscale"
+	with(other) {
+	image_xscale = -image_xscale;
 	
 	}
 
@@ -45,7 +57,7 @@ if(l4BA0C30F_0)
 	/// @DnDHash : 5ADE0836
 	/// @DnDApplyTo : other
 	/// @DnDParent : 4BA0C30F
-	/// @DnDArgument : "speed" "obj_Attack.image_xscale * 2"
+	/// @DnDArgument : "speed" "obj_Attack.image_xscale * 6"
 	/// @DnDArgument : "type" "1"
-	with(other) hspeed = obj_Attack.image_xscale * 2;
+	with(other) hspeed = obj_Attack.image_xscale * 6;
 }

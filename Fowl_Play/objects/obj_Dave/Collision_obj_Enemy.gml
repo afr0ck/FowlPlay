@@ -9,9 +9,17 @@ if(vsp > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 304ED569
 	/// @DnDParent : 13D2B741
-	/// @DnDArgument : "expr" "-10"
+	/// @DnDArgument : "expr" "-17"
 	/// @DnDArgument : "var" "vsp"
-	vsp = -10;
+	vsp = -17;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 010D4F96
+	/// @DnDParent : 13D2B741
+	/// @DnDArgument : "expr" "jumpsmax"
+	/// @DnDArgument : "var" "jumps"
+	jumps = jumpsmax;
 }
 
 /// @DnDAction : YoYo Games.Common.Else

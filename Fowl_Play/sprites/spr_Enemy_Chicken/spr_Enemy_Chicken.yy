@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
-  "bbox_right": 57,
+  "bbox_left": 12,
+  "bbox_right": 119,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 128,
+  "height": 128,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"22cad0aa-9401-4dd1-b870-d0e2170f57dc","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"22cad0aa-9401-4dd1-b870-d0e2170f57dc","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"LayerId":{"name":"1d84be14-1a5a-4dde-85cf-680377116827","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Enemy_Chicken","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"resourceVersion":"1.0","name":"22cad0aa-9401-4dd1-b870-d0e2170f57dc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"58e30f91-8188-4c1e-92bd-df621ef0657a","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"58e30f91-8188-4c1e-92bd-df621ef0657a","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"LayerId":{"name":"419ce08c-5200-4d4a-ba56-4bd5acc769a9","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Enemy_Chicken","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"resourceVersion":"1.0","name":"58e30f91-8188-4c1e-92bd-df621ef0657a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_Enemy_Chicken","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"53221984-9966-4436-855f-19c548e37712","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"22cad0aa-9401-4dd1-b870-d0e2170f57dc","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"93d1239f-b3a4-4905-9555-b858d4a44950","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58e30f91-8188-4c1e-92bd-df621ef0657a","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 32,
-    "yorigin": 32,
+    "xorigin": 64,
+    "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Enemy_Chicken","path":"sprites/spr_Enemy_Chicken/spr_Enemy_Chicken.yy",},
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1d84be14-1a5a-4dde-85cf-680377116827","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"419ce08c-5200-4d4a-ba56-4bd5acc769a9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Enemies",
+    "path": "folders/Sprites/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Enemy_Chicken",
