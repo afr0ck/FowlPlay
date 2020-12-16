@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_blockUp",
-    "path": "sprites/spr_blockUp/spr_blockUp.yy",
+    "name": "spr_Cranberry",
+    "path": "sprites/spr_Cranberry/spr_Cranberry.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Blob",
+    "path": "objects/obj_Blob/obj_Blob.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_Cranberry","path":"objects/obj_Cranberry/obj_Cranberry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bounding Blocks",
-    "path": "folders/Objects/Bounding Blocks.yy",
+    "name": "Blob",
+    "path": "folders/Objects/Blob.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_blockUp",
+  "name": "obj_Cranberry",
   "tags": [],
   "resourceType": "GMObject",
 }

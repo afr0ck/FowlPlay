@@ -26,6 +26,7 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Dave","path":"objects/obj_Dave/obj_Dave.yy",},"parent":{"name":"obj_EggBomb","path":"objects/obj_EggBomb/obj_EggBomb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_EggBomb","path":"objects/obj_EggBomb/obj_EggBomb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Attack","path":"objects/obj_Attack/obj_Attack.yy",},"parent":{"name":"obj_EggBomb","path":"objects/obj_EggBomb/obj_EggBomb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_BlobBullet","path":"objects/obj_BlobBullet/obj_BlobBullet.yy",},"parent":{"name":"obj_EggBomb","path":"objects/obj_EggBomb/obj_EggBomb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"10","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"damage","tags":[],"resourceType":"GMObjectProperty",},

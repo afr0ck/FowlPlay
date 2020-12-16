@@ -13,3 +13,17 @@
 
 --- Current Known Bugs ---
 * Dave falls through <jump through> bounding blocks when vsp is too high
+
+
+--- Update 16 Dec 20 ---
++ Jump through (one way) collision fixed // code inside dave step event
++ Monster respawn added
++ Blob added
+	+ Sprites (Animated blob, ammo types)
+	+ Pick up item
+	+ Blob follows Dave positioning
+	+ Blobs spawn depending on pick up item blob_type variable (must be manually entered when putting obj_BlobPickUp on a room)
+	+ Space shoots blob ammo with blob specific speed and damage (Not keen on current cooldown / cooldown algorithm
+
+--- Current Known Bugs ---
+* Killing two monsters before the first monster respawns stops first monster from respawning // alarm / vairable issues probably

@@ -18,7 +18,7 @@ if(instance_exists(obj_Dave)){
 		{
 			instance_create_layer(x, y, "Active", obj_EggBomb);
 			canShoot = false;
-			alarm[0] = room_speed
+			alarm[0] = irandom_range(90, 180);
 		}
 	}
 }

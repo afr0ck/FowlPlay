@@ -9,3 +9,9 @@ lives = 3;
 gameOver = false;
 gameWin = false;
 killCounter = 0;
+
+monsterX = 0;
+monsterY = 0;
+monsterToSpawn = "";
+
+blobType = obj_Blob;

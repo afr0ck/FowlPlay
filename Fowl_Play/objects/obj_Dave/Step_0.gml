@@ -59,9 +59,15 @@ if(key_attack){
 //Directional Animaiton
 if(key_left){
 	image_xscale = -1 //flips image left
+	if (instance_exists(obj_Blob)) {
+		obj_Blob.image_xscale = -.1;
+	}
 }
 if(key_right){
 	image_xscale = 1 //flips image right
+	if (instance_exists(obj_Blob)) {
+		obj_Blob.image_xscale = .1;
+	}
 }
 
 //Horizontal Movement Calulations
@@ -70,7 +76,7 @@ if (!isHit) {
 }
 
 //Gravity
-if (vsp <= 17) vsp += grav;
+vsp += grav;
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_block)) 
@@ -94,28 +100,15 @@ if (place_meeting(x,y+vsp,obj_block))
 }
 
 //Jump through block collision check
-
-if (vsp > 0) {
-	if (place_meeting(x, y+vsp, obj_blockUp))
-	{
-	    if(!place_meeting(x, y+sign(vsp), obj_blockUp))
-	    {
-	        y += sign(vsp);
-	    }
-		vsp = 0;
-		jumps = jumpsmax
-	}
-}
-
-/*if (collision_point(x, bbox_bottom+vsp, obj_blockUp, true, true) && vsp > 0)
+if (position_meeting(x, bbox_bottom, obj_blockUp) && vsp > 0)
 {
-	while(!collision_point(x, bbox_bottom, obj_blockUp, false, true))
+	if(!position_meeting(x, bbox_bottom, obj_blockUp))
     {
         y += vsp;
     }
     vsp = 0;
 	jumps = jumpsmax
-}*/
+}
 
 //Jump down through block
 if (collision_point(x, bbox_bottom, obj_blockUp, false, true) && key_down)

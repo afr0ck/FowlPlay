@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_blockUp",
-    "path": "sprites/spr_blockUp/spr_blockUp.yy",
+    "name": "spr_CranBullet",
+    "path": "sprites/spr_CranBullet/spr_CranBullet.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_BlobBullet",
+    "path": "objects/obj_BlobBullet/obj_BlobBullet.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bounding Blocks",
-    "path": "folders/Objects/Bounding Blocks.yy",
+    "name": "Blob",
+    "path": "folders/Objects/Blob.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_blockUp",
+  "name": "obj_CranBullet",
   "tags": [],
   "resourceType": "GMObject",
 }

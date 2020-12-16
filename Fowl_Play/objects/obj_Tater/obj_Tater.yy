@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_blockUp",
-    "path": "sprites/spr_blockUp/spr_blockUp.yy",
+    "name": "spr_Tater",
+    "path": "sprites/spr_Tater/spr_Tater.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Blob",
+    "path": "objects/obj_Blob/obj_Blob.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_Tater","path":"objects/obj_Tater/obj_Tater.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bounding Blocks",
-    "path": "folders/Objects/Bounding Blocks.yy",
+    "name": "Blob",
+    "path": "folders/Objects/Blob.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_blockUp",
+  "name": "obj_Tater",
   "tags": [],
   "resourceType": "GMObject",
 }
