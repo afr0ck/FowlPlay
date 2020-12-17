@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Dave","path":"objects/obj_Dave/obj_Dave.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":71.0,"y":1015.0,"resourceVersion":"1.0","name":"inst_689EA55","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Controller","path":"objects/obj_Controller/obj_Controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_4F2E21B3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Enemy_Turkey","path":"objects/obj_Enemy_Turkey/obj_Enemy_Turkey.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1317.0,"y":1011.0,"resourceVersion":"1.0","name":"inst_1C3A4BE1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Enemy_Chicken","path":"objects/obj_Enemy_Chicken/obj_Enemy_Chicken.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1453.0,"y":703.0,"resourceVersion":"1.0","name":"inst_38ADA79","tags":[],"resourceType":"GMRInstance",},
@@ -24,6 +23,7 @@
         {"properties":[
             {"propertyId":{"name":"blob_type","path":"objects/obj_BlobPickUp/obj_BlobPickUp.yy",},"objectId":{"name":"obj_BlobPickUp","path":"objects/obj_BlobPickUp/obj_BlobPickUp.yy",},"value":"tater","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_BlobPickUp","path":"objects/obj_BlobPickUp/obj_BlobPickUp.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":704.0,"resourceVersion":"1.0","name":"inst_6AB65243","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Dave","path":"objects/obj_Dave/obj_Dave.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":992.0,"resourceVersion":"1.0","name":"inst_19B108EC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Active","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":80.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":1111.0,"resourceVersion":"1.0","name":"inst_7F8FC321","tags":[],"resourceType":"GMRInstance",},
@@ -59,11 +59,10 @@
     {"spriteId":{"name":"spr_House_Background","path":"sprites/spr_House_Background/spr_House_Background.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/Room1/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_7F8FC321","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_689EA55","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4F2E21B3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_17E6920D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3E098E36","path":"rooms/Room1/Room1.yy",},
@@ -87,6 +86,7 @@
     {"name":"inst_38ADA79","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7EC0F7FA","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6AB65243","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_19B108EC","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -25,6 +25,8 @@ jumpspeed = jumpspeed_normal;
 //Attacking Check
 is_attacking = false;
 
-//Health
-health = 100
+//Healt
+maxHealth = 100 + (obj_Controller.hpUp*10)
+health = maxHealth
+
 

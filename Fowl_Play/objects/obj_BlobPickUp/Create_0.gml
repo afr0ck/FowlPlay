@@ -7,3 +7,5 @@ if (blob_type == "cranberry") {
 }
 image_xscale = .1;
 image_yscale = .1;
+
+ID = id

@@ -3,8 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-hsp = 4;
-hspeed = -hsp;
-Paused = false;
-originX = x
-originY = y
+
+spawner = instance_create_layer(originX, originY, "Active", obj_EnemySpawn);
+with(spawner) monsterToSpawn = obj_Enemy_Turkey

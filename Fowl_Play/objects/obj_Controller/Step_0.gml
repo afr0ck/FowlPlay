@@ -21,5 +21,9 @@ if (killCounter == 6) {
 if(XP >= Lvl*100){
 	XP = XP - Lvl*100;
 	Lvl++;
+	hpUp++; //used in step and create event in Dave
+	dmgUp++; //in variable definiton for damage
+	if(instance_exists(obj_Dave))
+		health += 10
 }
 

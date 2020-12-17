@@ -4,3 +4,5 @@ grav = 0.2;
 vsp = 0;
 isHit = false;
 canShoot = true;
+originX = x
+originY = y

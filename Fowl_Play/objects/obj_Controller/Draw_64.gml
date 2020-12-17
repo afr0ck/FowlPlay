@@ -2,8 +2,10 @@
 // You can write your code in this editor
 draw_rectangle_color(0, 0, 200, 95, c_gray,c_gray,c_gray,c_gray,false)
 draw_healthbar(5,5,150,15,health,c_black,c_red,c_green,0,true,true)
-xStart = 15
+if(instance_exists(obj_Dave))
+	draw_text(160, 10, string(health)+"/"+string(obj_Dave.maxHealth))
 
+xStart = 15
 for(life = 0; life < lives; life++){
 	draw_sprite(spr_DaveLife,image_index=0,xStart,30)
 	xStart += 30
@@ -14,6 +16,8 @@ draw_set_color(c_black)
 draw_set_font(fnt_Arial)
 draw_text(5, 45, "Exp:"+ string(XP)+"/"+string(Lvl*100))
 draw_text(5, 75, "Level: "+string(Lvl))
+
+
 
 draw_set_color(c_green);
 draw_text(250, 45, "Debug Tool: ");

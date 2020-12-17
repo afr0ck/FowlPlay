@@ -1,5 +1,6 @@
 /// @description Moving/Jumping + Collision
 if (global.pause) exit;
+maxHealth = 100 + (obj_Controller.hpUp*10)
 
 //Player's input\\
 key_right = keyboard_check(ord("D")) || keyboard_check(vk_right) ;
