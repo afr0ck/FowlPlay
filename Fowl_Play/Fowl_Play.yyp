@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"spr_Chair","path":"sprites/spr_Chair/spr_Chair.yy",},"order":4,},
-    {"id":{"name":"spr_Dave_fall","path":"sprites/spr_Dave_fall/spr_Dave_fall.yy",},"order":3,},
     {"id":{"name":"obj_TaterBullet","path":"objects/obj_TaterBullet/obj_TaterBullet.yy",},"order":6,},
     {"id":{"name":"spr_Fence","path":"sprites/spr_Fence/spr_Fence.yy",},"order":1,},
     {"id":{"name":"obj_Enemy_Turkey","path":"objects/obj_Enemy_Turkey/obj_Enemy_Turkey.yy",},"order":2,},
@@ -9,11 +8,13 @@
     {"id":{"name":"spr_YouWin","path":"sprites/spr_YouWin/spr_YouWin.yy",},"order":3,},
     {"id":{"name":"spr_Fork","path":"sprites/spr_Fork/spr_Fork.yy",},"order":0,},
     {"id":{"name":"spr_DaveLife","path":"sprites/spr_DaveLife/spr_DaveLife.yy",},"order":20,},
+    {"id":{"name":"spr_Dave_Die","path":"sprites/spr_Dave_Die/spr_Dave_Die.yy",},"order":6,},
     {"id":{"name":"spr_Pause","path":"sprites/spr_Pause/spr_Pause.yy",},"order":1,},
     {"id":{"name":"obj_HP_Spawner","path":"objects/obj_HP_Spawner/obj_HP_Spawner.yy",},"order":1,},
     {"id":{"name":"spr_House_Background","path":"sprites/spr_House_Background/spr_House_Background.yy",},"order":0,},
     {"id":{"name":"obj_Dave","path":"objects/obj_Dave/obj_Dave.yy",},"order":0,},
     {"id":{"name":"obj_Enemy","path":"objects/obj_Enemy/obj_Enemy.yy",},"order":0,},
+    {"id":{"name":"obj_Dave_Die","path":"objects/obj_Dave_Die/obj_Dave_Die.yy",},"order":19,},
     {"id":{"name":"spr_Dave","path":"sprites/spr_Dave/spr_Dave.yy",},"order":0,},
     {"id":{"name":"obj_Blob","path":"objects/obj_Blob/obj_Blob.yy",},"order":0,},
     {"id":{"name":"spr_Kitchen_Shelf","path":"sprites/spr_Kitchen_Shelf/spr_Kitchen_Shelf.yy",},"order":4,},

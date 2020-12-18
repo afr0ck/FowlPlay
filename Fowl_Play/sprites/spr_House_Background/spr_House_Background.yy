@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"224d4004-403c-440f-8882-68a687f1b65d","path":"sprites/spr_House_Background/spr_House_Background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"224d4004-403c-440f-8882-68a687f1b65d","path":"sprites/spr_House_Background/spr_House_Background.yy",},"LayerId":{"name":"62ab99aa-1cf6-44cc-ad34-a45b8b61a04f","path":"sprites/spr_House_Background/spr_House_Background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_House_Background","path":"sprites/spr_House_Background/spr_House_Background.yy",},"resourceVersion":"1.0","name":"224d4004-403c-440f-8882-68a687f1b65d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"761549e0-ee96-4bc6-934d-9ae40b256c12","path":"sprites/spr_House_Background/spr_House_Background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"761549e0-ee96-4bc6-934d-9ae40b256c12","path":"sprites/spr_House_Background/spr_House_Background.yy",},"LayerId":{"name":"d9dfde83-2a9c-4ad6-8343-3a01448a2a55","path":"sprites/spr_House_Background/spr_House_Background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_House_Background","path":"sprites/spr_House_Background/spr_House_Background.yy",},"resourceVersion":"1.0","name":"761549e0-ee96-4bc6-934d-9ae40b256c12","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_House_Background","path":"sprites/spr_House_Background/spr_House_Background.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fd13da70-04c9-457f-95fc-86703ac8e3bd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"224d4004-403c-440f-8882-68a687f1b65d","path":"sprites/spr_House_Background/spr_House_Background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9ac86083-9f5a-4eb7-9d55-fdab502bf550","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"761549e0-ee96-4bc6-934d-9ae40b256c12","path":"sprites/spr_House_Background/spr_House_Background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 960,
+    "yorigin": 540,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_House_Background","path":"sprites/spr_House_Background/spr_House_Background.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62ab99aa-1cf6-44cc-ad34-a45b8b61a04f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d9dfde83-2a9c-4ad6-8343-3a01448a2a55","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Backgrounds",

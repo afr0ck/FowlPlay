@@ -22,39 +22,29 @@ if (key_jump)&&(jumps > 0){
 		vsp = -jumpspeed
 }
 
-//Attack Animation End
-	if(image_index > image_number -1){
-		sprite_index = spr_Dave
-		is_attacking = false
-	}
-	
 //Attacking
 if(key_attack){
-	sprite_index = spr_Dave_attack
-	image_index = 0
-	image_speed = 1
-	is_attacking = true
 	instance_create_layer(x+64, y, "Active", obj_Attack);
 
 //Animation Changes
-}else if (key_down == 1 && !is_attacking)//crouch
+}else if (key_down == 1 && !isAttacking)//crouch
 {
-	image_speed = 0 //stops animation
     sprite_index = spr_Dave_crouch
-	image_index = 1 //selects best crouch frame
 	move = 0 //prevents players from moving if they are crouching
 }else{
 	image_speed = 1 // play animations
 	
-	if(vsp > 0) sprite_index = spr_Dave_fall else sprite_index = spr_Dave_jump
+	if(vsp != 0) sprite_index = spr_Dave_jump
 	
-	if(vsp == 0){
+	// jumps == 2 prevents sprite transition while jumping and falling
+	if(vsp == 0 && jumps == 2){
 		if(move == 0)
 			sprite_index = spr_Dave //idle animation
 		else
 			sprite_index = spr_Dave_run //running animation
+			
+		if (isAttacking) sprite_index = spr_Dave_attack;
 	}
-	
 }
 
 //Directional Animaiton

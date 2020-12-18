@@ -1,14 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
 // Destroy current blob is exists
-if (instance_exists(obj_Cranberry)){
-	instance_activate_object(obj_Dave.activeID)
-	instance_destroy(obj_Cranberry);
-}
-if (instance_exists(obj_Tater)){
-	instance_activate_object(obj_Dave.activeID)
-	instance_destroy(obj_Tater);
-}
+if (instance_exists(obj_Blob)) instance_destroy(obj_Blob);
+
+// Reset previous blob pick up if currently gone
+if (obj_Dave.activeID != 0) instance_activate_object(obj_Dave.activeID);
+
 
 // Set blob type based on object variable
 if (blob_type == "cranberry") {

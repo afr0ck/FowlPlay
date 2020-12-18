@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_rectangle_color(0, 0, 245, 95, c_gray,c_gray,c_gray,c_gray,false)
-healthBar = (health / obj_Dave.maxHealth) * 100;
+if (instance_exists(obj_Dave)) healthBar = (health / obj_Dave.maxHealth) * 100;
 draw_healthbar(5,5,150,15,healthBar,c_black,c_red,c_green,0,true,true)
 if(instance_exists(obj_Dave))
 	draw_text(160, 0, string(health)+"/"+string(obj_Dave.maxHealth))
