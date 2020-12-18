@@ -25,8 +25,20 @@ jumpspeed = jumpspeed_normal;
 //Attacking Check
 is_attacking = false;
 
-//Healt
+//Health
 maxHealth = 100 + (obj_Controller.hpUp*10)
 health = maxHealth
 
+// Room spawn locations
+if (global.room_spawn_location == "next") {
+	x = 40;
+	y = 1018;
+}
+if (global.room_spawn_location == "back") {
+	x = 5062;
+	y = 1018;
+	image_xscale = -1;
+}
 
+// Blob spawn in new room
+if (global.hasBlob) instance_create_layer(x, y, "Active", global.blobType);

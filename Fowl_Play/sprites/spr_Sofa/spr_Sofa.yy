@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a3f7f78b-5d39-40ec-9163-a6de2c180313","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Sprites/Misc.yy",
+    "name": "Living Room",
+    "path": "folders/Sprites/Living Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Sofa",

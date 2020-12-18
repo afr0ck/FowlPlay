@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"05bf409e-451c-477b-b062-ee6ccb558212","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Sprites/Misc.yy",
+    "name": "Living Room",
+    "path": "folders/Sprites/Living Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Couch",

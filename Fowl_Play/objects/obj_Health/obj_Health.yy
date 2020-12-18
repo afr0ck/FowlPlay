@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_DaveLife",
-    "path": "sprites/spr_DaveLife/spr_DaveLife.yy",
+    "name": "spr_Health",
+    "path": "sprites/spr_Health/spr_Health.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,12 +20,16 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_Health","path":"objects/obj_Health/obj_Health.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_Health","path":"objects/obj_Health/obj_Health.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_Health","path":"objects/obj_Health/obj_Health.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Items",
+    "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Health",

@@ -1,3 +1,5 @@
+if (global.pause) exit;
+
 key_shoot = keyboard_check_pressed(vk_space);
 
 // If dave exists follow his x / y position

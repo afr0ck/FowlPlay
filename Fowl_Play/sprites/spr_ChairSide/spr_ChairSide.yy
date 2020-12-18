@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1932271e-182c-49db-9fab-c077dc84609a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Sprites/Misc.yy",
+    "name": "Living Room",
+    "path": "folders/Sprites/Living Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ChairSide",

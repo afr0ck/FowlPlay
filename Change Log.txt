@@ -27,3 +27,26 @@
 
 --- Current Known Bugs ---
 * Killing two monsters before the first monster respawns stops first monster from respawning // alarm / vairable issues probably
+
+
+--- Update 18 Dec 20 ---
++ Tutorial Room Added
++ New images add as sprites
++ Pause events added for blob, blob bullets, blob pick ups
++ Health sprite changed
+	+ Respawn added
+	+ Doesn't destroy if health is already max
++ Life added
+	+ Respawn added
+	+ Doesn't destroy if lives are maxed at 8
++ Quality of life fixes on HUD (sized for 8 lives)
++ Cheats // obj_Controller CTRL pressed event
+	+ Debug Cheats
+		+ Next / Previous Rooms
+		+ Room Restart
+		+ Game Restart
+	+ Level Increase
+	+ Life++
+	+ Full Health
+	+ Blob Spawn / Depsawn
++ Next room / Previous Room (Level switching) Added

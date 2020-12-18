@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c820e6ea-cfe4-4b14-9d4d-15d17c7c2852","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Sprites/Misc.yy",
+    "name": "Living Room",
+    "path": "folders/Sprites/Living Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Vase",

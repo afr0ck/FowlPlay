@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(other);
-health = maxHealth;
+if (health != maxHealth) {
+	instance_destroy(other);
+	health = maxHealth;
+}

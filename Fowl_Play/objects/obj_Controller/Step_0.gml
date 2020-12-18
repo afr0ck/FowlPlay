@@ -27,3 +27,8 @@ if(XP >= Lvl*100){
 		health += 10
 }
 
+if (instance_exists(obj_Blob)) {
+	global.hasBlob = true;
+	if (instance_exists(obj_Cranberry)) global.blobType = obj_Cranberry;
+	if (instance_exists(obj_Tater)) global.blobType = obj_Tater;
+}
