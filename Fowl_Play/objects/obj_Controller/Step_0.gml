@@ -42,19 +42,21 @@ if (instance_exists(obj_Blob)) {
 }
 
 
-if (room_get_name(room) == "BossLevel" && !gameOver) {
+if (room_get_name(room) == "BossLevel" && !gameOver && !gameWin) {
 	if (!audio_is_playing(snd_Boss_Room)) {
 		audio_stop_all();
 		audio_play_sound(snd_Boss_Room, 1, true);	
 	}
-} else if (!gameOver) {
+} else if (!gameOver && !gameWin) {
 	if (!audio_is_playing(snd_GameBG)) {
 		audio_stop_all();
 		audio_play_sound(snd_GameBG, 1, true);	
 	}
-} else if (gameWin) {
+} 
+if (gameWin) {
 	if (!audio_is_playing(snd_Win)) {
 		audio_stop_all();
 		audio_play_sound(snd_Win, 1, true);	
 	}
+	if(keyboard_check_pressed(ord("R"))) game_restart();
 }

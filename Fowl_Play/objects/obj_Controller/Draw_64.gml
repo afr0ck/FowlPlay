@@ -19,11 +19,11 @@ draw_text(5, 45, "Exp: "+ string(XP)+"/"+string(Lvl*100))
 draw_text(5, 75, "Level: "+string(Lvl))
 
 
-
+/**
 draw_set_color(c_green);
 draw_text(250, 45, "Debug Tool: " + string(global.hasBlob));
 draw_set_color(c_black);
-
+**/
 
 if (gameOver) {
 	draw_sprite(spr_DeathMessage, 0, camera_get_view_width(view_camera[0])/2, camera_get_view_height(view_camera[0])/2);

@@ -19,6 +19,9 @@ if (keyboard_check(vk_alt)) {
 	
 	// Restart Game
 	if (keyboard_check_pressed(ord("R"))) game_restart();
+	
+	// Win Game
+	if(keyboard_check_pressed(ord("G"))) gameWin=true;
 }
 
 // Full Health
