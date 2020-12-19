@@ -3,7 +3,7 @@
 // Debug Cheats Essentially
 if (keyboard_check(vk_alt)) {
 	// Next Room
-	if (keyboard_check_pressed(ord("N"))) {
+	if (keyboard_check_pressed(ord("N")) && room_get_name(room) != "BossLevel") {
 		room_goto_next();
 		global.room_spawn_location = "next";
 	}

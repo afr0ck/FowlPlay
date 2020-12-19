@@ -14,9 +14,15 @@ if(health <= 0){
 		killCounter = 0;
 	}else{
 		gameOver = true;
-		if(keyboard_check_pressed(ord("F"))){
-			game_restart();
-		}
+	}
+}
+if (gameOver) {
+	if (!audio_is_playing(snd_Died)) {
+		audio_stop_all();
+		audio_play_sound(snd_Died, 0, true);
+	}
+	if(keyboard_check_pressed(ord("F"))){
+		game_restart();
 	}
 }
 
@@ -33,4 +39,22 @@ if (instance_exists(obj_Blob)) {
 	global.hasBlob = true;
 	if (instance_exists(obj_Cranberry)) global.blobType = obj_Cranberry;
 	if (instance_exists(obj_Tater)) global.blobType = obj_Tater;
+}
+
+
+if (room_get_name(room) == "BossLevel" && !gameOver) {
+	if (!audio_is_playing(snd_Boss_Room)) {
+		audio_stop_all();
+		audio_play_sound(snd_Boss_Room, 1, true);	
+	}
+} else if (!gameOver) {
+	if (!audio_is_playing(snd_GameBG)) {
+		audio_stop_all();
+		audio_play_sound(snd_GameBG, 1, true);	
+	}
+} else if (gameWin) {
+	if (!audio_is_playing(snd_Win)) {
+		audio_stop_all();
+		audio_play_sound(snd_Win, 1, true);	
+	}
 }

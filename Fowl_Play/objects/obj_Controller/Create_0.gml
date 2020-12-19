@@ -19,3 +19,5 @@ gameWin = false;
 killCounter = 0;
 
 monsterToSpawn = "";
+
+audio_play_sound(snd_GameBG, 1, true);

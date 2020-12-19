@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_temp_Boss",
-    "path": "sprites/spr_temp_Boss/spr_temp_Boss.yy",
+    "name": "spr_Turducken",
+    "path": "sprites/spr_Turducken/spr_Turducken.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,8 +35,8 @@
     {"propertyId":{"name":"maxHP","path":"objects/obj_Enemy/obj_Enemy.yy",},"objectId":{"name":"obj_Enemy","path":"objects/obj_Enemy/obj_Enemy.yy",},"value":"500","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Turducken",

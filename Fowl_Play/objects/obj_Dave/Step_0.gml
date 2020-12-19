@@ -24,6 +24,7 @@ if (key_jump)&&(jumps > 0){
 
 //Attacking
 if(key_attack){
+	audio_play_sound(snd_Attack, 0, false);
 	instance_create_layer(x+64, y, "Active", obj_Attack);
 
 //Animation Changes

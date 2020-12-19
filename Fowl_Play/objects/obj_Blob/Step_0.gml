@@ -11,6 +11,7 @@ if (instance_exists(obj_Dave)) {
 
 // Shoot capability and timing
 if (canShoot && key_shoot) {
+	audio_play_sound(snd_Blob_Shoot, 0, false);
 	instance_create_layer(x, y, "Active", ammo_type);	
 	canShoot = false;
 	alarm[0] = 600 / bullet_speed;

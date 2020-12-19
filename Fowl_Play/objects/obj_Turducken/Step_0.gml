@@ -20,6 +20,7 @@ if(instance_exists(obj_Dave)){
 	if(distance_to_object(obj_Dave) <= 500){
 		if (canShoot && !(facing > 45 && facing < 135)) 
 		{
+			audio_play_sound(snd_Chick_Sqwuak, 0, false);
 			instance_create_layer(x, y, "Active", obj_EggBomb);
 			canShoot = false;
 			alarm[0] = irandom_range(90, 180);

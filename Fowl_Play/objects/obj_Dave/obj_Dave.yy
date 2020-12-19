@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Health","path":"objects/obj_Health/obj_Health.yy",},"parent":{"name":"obj_Dave","path":"objects/obj_Dave/obj_Dave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Life","path":"objects/obj_Life/obj_Life.yy",},"parent":{"name":"obj_Dave","path":"objects/obj_Dave/obj_Dave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_Level_Travel","path":"objects/obj_Level_Travel/obj_Level_Travel.yy",},"parent":{"name":"obj_Dave","path":"objects/obj_Dave/obj_Dave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_Dave","path":"objects/obj_Dave/obj_Dave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"isHit","tags":[],"resourceType":"GMObjectProperty",},

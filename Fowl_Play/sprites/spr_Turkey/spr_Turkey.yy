@@ -24,24 +24,36 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"03cfbbd2-33bf-4702-9f43-90921ac6ab77","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"03cfbbd2-33bf-4702-9f43-90921ac6ab77","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":{"name":"f87bcf27-ae45-4228-b304-b8494cf9d4bc","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Turkey","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"03cfbbd2-33bf-4702-9f43-90921ac6ab77","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"311abd8c-b077-413e-a0ff-b67426bd1f62","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"311abd8c-b077-413e-a0ff-b67426bd1f62","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":{"name":"74ecd7bc-d06b-488f-a8a2-0f0e100e3da9","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Turkey","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"311abd8c-b077-413e-a0ff-b67426bd1f62","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"112a1b9d-74b5-4a6c-9cc7-1e66800fd1f0","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"112a1b9d-74b5-4a6c-9cc7-1e66800fd1f0","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":{"name":"74ecd7bc-d06b-488f-a8a2-0f0e100e3da9","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Turkey","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"112a1b9d-74b5-4a6c-9cc7-1e66800fd1f0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d821df5d-116d-449c-aca9-5311fdc88824","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d821df5d-116d-449c-aca9-5311fdc88824","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":{"name":"74ecd7bc-d06b-488f-a8a2-0f0e100e3da9","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Turkey","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"d821df5d-116d-449c-aca9-5311fdc88824","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"924dcabf-f428-49d3-a368-b4b03c290b1f","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"924dcabf-f428-49d3-a368-b4b03c290b1f","path":"sprites/spr_Turkey/spr_Turkey.yy",},"LayerId":{"name":"74ecd7bc-d06b-488f-a8a2-0f0e100e3da9","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Turkey","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","name":"924dcabf-f428-49d3-a368-b4b03c290b1f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_Turkey","path":"sprites/spr_Turkey/spr_Turkey.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 4.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0df6fdcb-cbbf-4028-ad54-635ead48da1f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"03cfbbd2-33bf-4702-9f43-90921ac6ab77","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d66eda90-cf14-4832-92f7-33c6b747f3d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"311abd8c-b077-413e-a0ff-b67426bd1f62","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"081b9836-1ad1-4eda-8df0-defc0bf59812","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"112a1b9d-74b5-4a6c-9cc7-1e66800fd1f0","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"01f51ca9-a0c9-4b75-9027-7d44a8d1d664","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d821df5d-116d-449c-aca9-5311fdc88824","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"af655418-4d49-4173-9b72-6806eecc4073","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"924dcabf-f428-49d3-a368-b4b03c290b1f","path":"sprites/spr_Turkey/spr_Turkey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f87bcf27-ae45-4228-b304-b8494cf9d4bc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"74ecd7bc-d06b-488f-a8a2-0f0e100e3da9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Enemies",
