@@ -4,8 +4,8 @@ if(health <= 0){
 	if (instance_exists(obj_Dave)) {
 		tmpX = obj_Dave.x;
 		tmpY = obj_Dave.y;
+		instance_destroy(obj_Dave);
 	}
-	instance_destroy(obj_Dave);
 	if (instance_exists(obj_Blob)) instance_destroy(obj_Blob);
 	global.hasBlob = false;
 	instance_create_layer(tmpX, tmpY, "Active", obj_Dave_Die);
@@ -18,10 +18,6 @@ if(health <= 0){
 			game_restart();
 		}
 	}
-}
-
-if (killCounter == 6) {
-	gameWin = true;	
 }
 
 if(XP >= Lvl*100){

@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 4,
+  "origin": 0,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2c3de867-2b69-4c9c-8b2f-00faf2c94683","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2c3de867-2b69-4c9c-8b2f-00faf2c94683","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"LayerId":{"name":"dc0c246d-0534-47f1-b029-6bc2dd63933b","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Kitchen_Background","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"resourceVersion":"1.0","name":"2c3de867-2b69-4c9c-8b2f-00faf2c94683","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"72a8aa7c-3591-4864-9bb5-c303f0cf3d5c","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"72a8aa7c-3591-4864-9bb5-c303f0cf3d5c","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"LayerId":{"name":"0cc94f71-ba65-4115-9b05-2bc2ef736268","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Kitchen_Background","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"resourceVersion":"1.0","name":"72a8aa7c-3591-4864-9bb5-c303f0cf3d5c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_Kitchen_Background","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4438306d-da9f-47d0-aaeb-676d678f63be","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c3de867-2b69-4c9c-8b2f-00faf2c94683","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c81f346f-0506-46a9-9921-719d8ede686a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"72a8aa7c-3591-4864-9bb5-c303f0cf3d5c","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 960,
-    "yorigin": 540,
+    "xorigin": 0,
+    "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Kitchen_Background","path":"sprites/spr_Kitchen_Background/spr_Kitchen_Background.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dc0c246d-0534-47f1-b029-6bc2dd63933b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0cc94f71-ba65-4115-9b05-2bc2ef736268","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Backgrounds",

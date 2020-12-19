@@ -49,11 +49,11 @@ if(isHit)
 		/// @DnDArgument : "x2_relative" "1"
 		/// @DnDArgument : "y2" "-70 - camOffSetY"
 		/// @DnDArgument : "y2_relative" "1"
-		/// @DnDArgument : "value" "hp"
+		/// @DnDArgument : "value" "(hp/maxHP)*100"
 		/// @DnDArgument : "backcol" "$FF000000"
 		/// @DnDArgument : "barcol" "$FF000000"
 		/// @DnDArgument : "mincol" "$FF0000FF"
 		/// @DnDArgument : "maxcol" "$FF00FF00"
-		draw_healthbar(x + -40 - camOffSetX, y + -60 - camOffSetY, x + 45 - camOffSetX, y + -70 - camOffSetY, hp, $FF000000 & $FFFFFF, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FF000000>>24) != 0), (($FF000000>>24) != 0));
+		draw_healthbar(x + -40 - camOffSetX, y + -60 - camOffSetY, x + 45 - camOffSetX, y + -70 - camOffSetY, (hp/maxHP)*100, $FF000000 & $FFFFFF, $FF0000FF & $FFFFFF, $FF00FF00 & $FFFFFF, 0, (($FF000000>>24) != 0), (($FF000000>>24) != 0));
 	}
 }

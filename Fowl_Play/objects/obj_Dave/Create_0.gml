@@ -31,11 +31,11 @@ health = maxHealth
 
 // Room spawn locations
 if (global.room_spawn_location == "next") {
-	x = 40;
+	x = 60;
 	y = 1018;
 }
 if (global.room_spawn_location == "back") {
-	x = 5062;
+	x = 5000;
 	y = 1018;
 	image_xscale = -1;
 }
